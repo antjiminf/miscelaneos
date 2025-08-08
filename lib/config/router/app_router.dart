@@ -8,5 +8,19 @@ final router = GoRouter(
       path: '/permissions',
       builder: (context, state) => PermissionsScreen(),
     ),
+    GoRoute(path: '/gyroscope', builder: (context, state) => GyroscopeScreen()),
+    GoRoute(
+      path: '/gyroscope-ball',
+      builder: (context, state) => GyroscopeBallScreen(),
+    ),
+    GoRoute(
+      path: '/accelerometer',
+      builder: (context, state) => AccelerometerScreen(),
+    ),
+    GoRoute(
+      path: '/magnetometer',
+      builder: (context, state) => MagnetometerScreen(),
+    ),
+    GoRoute(path: '/compass', builder: (context, state) => CompassScreen()),
   ],
 );
