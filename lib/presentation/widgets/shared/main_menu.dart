@@ -19,6 +19,7 @@ final menuItems = <MenuItem>[
     '/gyroscope-ball',
   ),
   MenuItem('Brújula', Icons.explore, '/compass'),
+  MenuItem('Pokemons', Icons.catching_pokemon, '/pokemons'),
 ];
 
 class MainMenu extends StatelessWidget {
