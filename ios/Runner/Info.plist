@@ -3,6 +3,10 @@
 <plist version="1.0">
 <dict>
 
+	<!-- GOOGLE MAPS API KEY-->
+	<key>GMSApiKey</key>
+	<string>$(GMS_API_KEY)</string>
+
 	<!-- Permission options for the `biometrics` group -->
 	<key>NSFaceIDUsageDescription</key>
 	<string>Need access to biometrics for authentication</string>
