@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:miscelaneos/presentation/providers/location/user_location_provider.dart';
+import 'package:miscelaneos/presentation/providers/providers.dart';
 
 class MapScreen extends ConsumerWidget {
   const MapScreen({super.key});
@@ -16,8 +16,8 @@ class MapScreen extends ConsumerWidget {
         data:
             (data) =>
                 _MapView(initialLatitude: data.$1, initialLongitude: data.$2),
-        error: (error, stackTrace) => Text('$error'),
-        loading: () => CircularProgressIndicator(),
+        error: (error, stackTrace) => Center(child: Text('$error')),
+        loading: () => Center(child: CircularProgressIndicator()),
       ),
     );
   }
