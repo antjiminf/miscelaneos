@@ -34,7 +34,10 @@ class _PokemonView extends StatelessWidget {
           IconButton(
             onPressed: () {
               //TODO:
-              SharePlugin.shareLink(pokemon.spriteFront, pokemon.name);
+              SharePlugin.shareLink(
+                'https://pokemon-deep-linking-website-1.up.railway.app/pokemons/${pokemon.id}/',
+                pokemon.name,
+              );
             },
             icon: Icon(Icons.share_outlined),
           ),
