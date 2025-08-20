@@ -2,37 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-
-	<!-- GOOGLE MAPS API KEY-->
 	<key>GMSApiKey</key>
 	<string>$(GMS_API_KEY)</string>
-
-	<!-- Permission options for the `biometrics` group -->
 	<key>NSFaceIDUsageDescription</key>
 	<string>Need access to biometrics for authentication</string>
-
-	<!-- Permission options for the `location` group -->
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>Need location when in use</string>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>Always and when in use!</string>
-    <key>NSLocationUsageDescription</key>
-    <string>Older devices need location.</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>Can I have location always?</string>
-
-	<!-- Permission options for the `camera` group -->
-    <key>NSCameraUsageDescription</key>
-    <string>camera</string>
-
-	<!-- Permission options for the `sensors` group -->
-    <key>NSMotionUsageDescription</key>
-    <string>motion</string>
-
-    <!-- Permission options for the `photos` group -->
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>photos</string>
-
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Need location when in use</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Always and when in use!</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Older devices need location.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Can I have location always?</string>
+	<key>NSCameraUsageDescription</key>
+	<string>camera</string>
+	<key>NSMotionUsageDescription</key>
+	<string>motion</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>photos</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
