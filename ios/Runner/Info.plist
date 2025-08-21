@@ -4,6 +4,10 @@
 <dict>
 	<key>GMSApiKey</key>
 	<string>$(GMS_API_KEY)</string>
+	<key>UIBackgroundModes</key>
+    <array>
+        <string>remote-notification</string>
+    </array>
 	<key>NSFaceIDUsageDescription</key>
 	<string>Need access to biometrics for authentication</string>
 	<key>NSLocationWhenInUseUsageDescription</key>

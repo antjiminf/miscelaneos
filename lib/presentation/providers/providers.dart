@@ -16,3 +16,5 @@ export 'pokemons/pokemon_provider.dart';
 export 'sensors/accelerometer_providers.dart';
 export 'sensors/gyroscope_provider.dart';
 export 'sensors/magnetometer_provider.dart';
+
+export 'badge/badge_counter_provider.dart';
